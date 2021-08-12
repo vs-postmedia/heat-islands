@@ -1,11 +1,3 @@
-/* FONTS */
-.benton-reg {
-	font-family: BentonSansCond-Regular;
-}
-.benton-ital {
-	font-family: BentonSansCond-RegItalic;
-}
-
 /* COLOURS */
 .blue-01 {
 	background-color: var(--blue01);
@@ -48,18 +40,19 @@
 }
 .scrollyteller .step-list {
 	position: relative;
+	pointer-events: none;
 }
 .scrollyteller .step {
-	margin: 75% auto;
+	margin: 100vh auto;
 	max-width: 400px;
 	text-align: center;
 }
 .scrollyteller .step:first-of-type {
-	margin-top: -25%;
+	margin-top: -5%;
 }
 .scrollyteller .step:last-of-type {
 	margin-bottom: 0;
-	padding-bottom: 50%;
+	padding-bottom: 100vh;
 }
 
 .scrollyteller .step > p {
